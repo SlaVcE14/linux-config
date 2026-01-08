@@ -116,7 +116,7 @@ button:hover {
 }
 
 
-.modules-left, 
+#workspaces, 
 .modules-center {
     background-color: rgba(5, 1, 24, 0.911);
     border-radius: 15px;
@@ -195,32 +195,32 @@ label:focus {
 }
 
 #memory {
-    background-color: #9b59b6;
+    border: 2px solid #9b59b6;
 }
 
 #disk {
-    background-color: #964B00;
+    border: 2px solid #964B00;
 }
 
 #backlight {
-    background-color: #90b1b1;
+    border: 2px solid #90b1b1;
 }
 
 #network {
-    background-color: #2980b9;
+    border: 2px solid #2980b9;
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    border: 2px solid #f53c3c;
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    border: 2px solid #f1c40f;
 }
 
 #pulseaudio.muted {
     background-color: #90b1b1;
+    border: 2px solid #90b1b1;
     color: #2a5c45;
 }
 
@@ -234,8 +234,7 @@ label:focus {
 }
 
 #custom-media {
-    background-color: #66cc99;
-    color: #2a5c45;
+    border: 2px solid #66cc99;
     min-width: 100px;
 }
 
@@ -248,15 +247,15 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    border: 2px solid #f0932b;
 }
 
 #temperature.critical {
-    background-color: #eb4d4b;
+    border: 2px solid #eb4d4b;
 }
 
 #tray {
-    background-color: #2980b9;
+    border: 2px solid #2980b9;
 }
 
 #tray > .passive {
