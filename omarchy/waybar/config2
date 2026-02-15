@@ -1,0 +1,39 @@
+{
+    // Configuration for the left side of the bar
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    // Configuration for the right side of the bar
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "battery",
+        "clock"
+    ],
+
+    // Module specific configuration
+    "hyprland/workspaces": {
+        "format": "{name}"
+    },
+    "pulseaudio": {
+        "format": "volume {volume}%",
+        "format-muted": "muted"
+    },
+    "network": {
+        "format-wifi": "Wifi {signalStrength}%",
+        "format-ethernet": "Eth {ifname}: {ipaddr}/{cidr}",
+        "format-disconnected": "Disconnected"
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% 🔋",
+        "format-plugged": "{capacity}% AC",
+        "format-icons": ["chrging_icon1", "chrging_icon2"], // Replace with actual icons
+        "interval": 60
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%Y-%m-%d %H:%M:%S}"
+    }
+}

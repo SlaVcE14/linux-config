@@ -1,0 +1,8 @@
+#workspaces button.active {
+	color: #4caf50;
+	background-color: rgba(76,175,80,0.2);
+}
+#workspaces button.urgent {
+	color: #F44336;
+}
+
