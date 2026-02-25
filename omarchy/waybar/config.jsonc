@@ -16,6 +16,7 @@
     "memory",
     "temperature",
     "backlight",
+    "hyprland/language",
     "battery"
   ],
   "hyprland/workspaces": {
@@ -23,6 +24,11 @@
     "format": "{icon}"
      
   },
+
+  "hyprland/language": {
+    "format": "{short}"
+  },
+
   "custom/omarchy": {
     "format": "<span font='omarchy'>\ue900</span>",
     "on-click": "omarchy-menu",
@@ -77,7 +83,7 @@
   },
 
   "clock": {
-    "format": "{:L%A %H:%M}",
+    "format": "{:L%A %I:%M %p}",
     "format-alt": "{:L%d %B W%V %Y}",
     "tooltip": false,
     "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
@@ -125,7 +131,7 @@
   },
   "pulseaudio": {
     "format": "{volume}% {icon} {format_source}",
-    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth": "{desc} {volume}% {icon} {format_source}",
     "format-bluetooth-muted": " {icon} {format_source}",
     "format-muted": " {format_source}",
     "format-source": "{volume}% ",

@@ -127,6 +127,7 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #power-profiles-daemon,
+#language,
 #mpd {
     padding: 0 10px;
     margin-left: 5px;
@@ -343,19 +344,13 @@ label:focus {
 }
 
 #language {
-    background: #00b093;
-    color: #740864;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
+    border: 2px solid #00b093;
+    color: #ffffff;
 }
 
 #keyboard-state {
     background: #97e1ad;
     color: #000000;
-    padding: 0 0px;
-    margin: 0 5px;
-    min-width: 16px;
 }
 
 #keyboard-state > label {
