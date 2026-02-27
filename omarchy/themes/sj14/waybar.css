@@ -346,6 +346,8 @@ label:focus {
 #language {
     border: 2px solid #00b093;
     color: #ffffff;
+    min-width: 15px;
+
 }
 
 #keyboard-state {
